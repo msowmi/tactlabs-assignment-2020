@@ -4,4 +4,4 @@ I've created a website which asks the users to sign in or sign up to proceed for
 I hereby attach the link of my day 1 progress.
 
 
-My project link:   http://localhost:63342/proj/welcome.html?_ijt=kkgusk6qg49i5h8fdboi6s6mv3
+My project link:   file:///C:/Users/Sowmi/PycharmProjects/proj/welcome.html

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>  
+    
+  </head>
+  <body>
+    <form>
+        <input action="ImgToText" type="button" id='script' name="scriptbutton" value=" Run Script " onclick="goPython()">
+
+        <script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    </form>
+    <script>
+        function goPython(){
+            $.ajax({
+              url: "ImgToText.py",
+              context: document.body
+            }).done(function() {
+             alert('finished python script');;
+            });
+        }
+    </script> 
+    
+   
+    <div class="image-preview">
+		<div class="image">
+			<img id="myImg" src="#" alt="">
+			<div class="file-upload">
+				<span>Image Preview</span>
+          <br></br>
+          <img src="proj.png" width="950" height="160">
+			</div>
+		</div>
+</div>
+  </body>
+</html>
